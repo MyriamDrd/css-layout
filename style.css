@@ -1,0 +1,171 @@
+body {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed;*/
+}
+ul {
+  list-style-type: none;
+}
+
+.dropdown {
+  display: none;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-right: 10px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header {
+  width: 20px;
+  height: 20px;
+}
+.part1 {
+  text-align: center;
+}
+h2 {
+  /*font-size: 2.125rem;*/
+  color: #00b39b;
+}
+
+h1 {
+  color: #00b39b;
+}
+.healthcare {
+  display: flex;
+  gap: 20px;
+}
+.forwho {
+  display: flex;
+  gap: 20px;
+}
+.border1 {
+  border-style: hidden;
+  background-color: darkturquoise;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+.border2 {
+  border-style: hidden;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+.border3 {
+  border-style: hidden;
+  background-color: black;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+}
+.forpatients {
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: 20px 20px 20px 20px;
+}
+.fordoctors {
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: 20px 20px 20px 20px;
+}
+.forclinics {
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: 20px 20px 20px 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.forwho {
+  justify-content: center;
+}
+.part2 {
+  border-style: hidden;
+
+  width: 1000px;
+  height: 700px;
+}
+.leaders {
+  border-style: double;
+}
+.appointments {
+  border-style: double;
+}
+.patients {
+  border-style: double;
+}
+.doctors {
+  border-style: double;
+}
+.world {
+  display: flex;
+  width: 200px;
+  
+  flex-wrap: wrap;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+.leaders {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.appointments {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.patients {
+  width: 200px;
+  height: 200px;
+  text-align: center;*/
+}
+.doctors {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.grid{
+    display: flex;
+    justify-content: flex-end ;
+    gap: 10px;
+    
+}
+.row2{
+    display: flex;
+     justify-content: flex-end;
+     gap: 10px;
+}
+a:hover {
+    color: #00b39b;
+  }
+  a{
+    color: darkgray;
+    text-decoration: none;
+  }
+ 
